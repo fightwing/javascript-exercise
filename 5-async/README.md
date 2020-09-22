@@ -1,4 +1,4 @@
-运行 json-server
+js 运行 json-server
 
 ```
 yarn json-server

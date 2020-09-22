@@ -6,7 +6,6 @@ export default class Person {
   }
 
   introduce() {
-    const result = `My name is ${this.name}. I am ${this.age} years old.`;
-    return result;
+    return `My name is ${this.name}. I am ${this.age} years old.`;
   }
 }

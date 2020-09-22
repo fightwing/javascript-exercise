@@ -3,6 +3,7 @@ function fetchData(url, successCallback, errorCallback) {
   // <-- start
   // TODO 21: 通过XMLHttpRequest实现异步请求
 
+  xhr.open('GET', url, false);
   // end -->
 }
 

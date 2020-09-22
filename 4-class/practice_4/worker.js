@@ -9,8 +9,8 @@ export default class Worker extends Person {
   }
 
   introduce() {
-    const result1 = super.introduce;
+    const result1 = super.introduce();
     const result2 = `I am a Worker. I have a job.`;
-    return result1 + result2;
+    return `${result1} ${result2}`;
   }
 }
